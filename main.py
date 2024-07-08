@@ -7,7 +7,7 @@ snack_scores = [40, 30, 30]
 slice_labels = ["fries", "chips", "sour candy"]
 
 # Let's make a pie chart!
-plt.pie()
+plt.pie(snack_scores, labels=slice_labels)
 
 # Give your pie chart a title in the quotes
 plt.title("")
