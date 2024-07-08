@@ -10,7 +10,7 @@ slice_labels = ["fries", "chips", "sour candy"]
 plt.pie(snack_scores, labels=slice_labels)
 
 # Give your pie chart a title in the quotes
-plt.title("")
+plt.title("Tauri's Munchies")
 
 # Put the name of your file in the quotes and give it a .png extension
 plt.savefig("")
