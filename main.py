@@ -9,7 +9,7 @@ slice_labels = ["fries", "chips", "sour candy"]
 colors = ["#5F9EA0", "#DDA0DD", "#4682B4"]
 
 # Let's make a pie chart!
-plt.pie(snack_scores, labels=slice_labels)
+plt.pie(snack_scores, labels=slice_labels, colors=colors)
 
 # Give your pie chart a title in the quotes
 plt.title("Tauri's Munchies", fontsize=22)
