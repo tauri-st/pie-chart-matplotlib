@@ -12,7 +12,7 @@ colors = ["#5F9EA0", "#DDA0DD", "#4682B4"]
 plt.pie(snack_scores, labels=slice_labels)
 
 # Give your pie chart a title in the quotes
-plt.title("Tauri's Munchies")
+plt.title("Tauri's Munchies", fontsize=22)
 
 # Put the name of your file in the quotes and give it a .png extension
 plt.savefig("Snacks_Ranking.png")
