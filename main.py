@@ -1,4 +1,5 @@
 # Import matplotlib library here
+import matplotlib.pyplot as plt
 
 # Let's rank some of our favorite snacks
 snack_scores = []
