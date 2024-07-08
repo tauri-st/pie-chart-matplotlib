@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 
 # Let's rank some of our favorite snacks
-snack_scores = []
+snack_scores = [40, 30, 30]
 
 # Let's make a pie chart!
 plt.pie()
