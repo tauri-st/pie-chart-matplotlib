@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 # Let's rank some of our favorite snacks
 snack_scores = [40, 30, 30]
 
+slice_labels = ["fries", "chips", "sour candy"]
+
 # Let's make a pie chart!
 plt.pie()
 
